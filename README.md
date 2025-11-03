@@ -9,15 +9,34 @@ Ce TP couvre la création et la manipulation de différentes structures de donn�
 ### Objectif
 Créer une **liste chaînée simple** permettant d’ajouter, supprimer, afficher des éléments et gérer dynamiquement la mémoire.
 
-### Classes principales
-- **Noeud** : représente un élément de la liste
-- **ListeChainee** : gère la liste et fournit les méthodes :
-  - `ajouterDebut(int valeur)`
-  - `ajouterFin(int valeur)`
-  - `supprimer(int valeur)`
-  - `afficher()`
-  - `taille()`
-  - Bonus : itérateur personnalisé
+## Classe ListeChainee
+
+## Attributs
+- `Noeud* tete` : pointeur vers le début de la liste
+
+## Méthodes
+
+### `void ajouterDebut(int valeur)`
+Ajoute un élément au début de la liste.
+
+### `void ajouterFin(int valeur)`
+Ajoute un élément à la fin de la liste.
+
+### `void supprimer(int valeur)`
+Supprime le premier élément correspondant à la valeur donnée.
+
+### `void afficher() const`
+Affiche tous les éléments de la liste.
+
+### `int taille() const`
+Retourne le nombre d’éléments présents dans la liste.
+
+## Destructeur
+- Libère automatiquement la mémoire allouée aux nœuds pour éviter les fuites.
+
+## Bonus
+- Implémentation possible d’un **itérateur personnalisé** pour parcourir la liste avec `begin()` et `end()`.
+
  
     
  
