@@ -16,19 +16,19 @@ Créer une **liste chaînée simple** permettant d’ajouter, supprimer, affiche
 
 ## Méthodes
 
-### `void ajouterDebut(int valeur)`
+ **`void ajouterDebut(int valeur)`**
 Ajoute un élément au début de la liste.
 
-### `void ajouterFin(int valeur)`
+**`void ajouterFin(int valeur)`**
 Ajoute un élément à la fin de la liste.
 
-### `void supprimer(int valeur)`
+ **`void supprimer(int valeur)`**
 Supprime le premier élément correspondant à la valeur donnée.
 
-### `void afficher() const`
+**`void afficher() const`**
 Affiche tous les éléments de la liste.
 
-### `int taille() const`
+**`int taille() const`**
 Retourne le nombre d’éléments présents dans la liste.
 
 ## Destructeur
