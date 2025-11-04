@@ -135,27 +135,27 @@ L’objectif est de stocker des paires clé-valeur et de pouvoir les **insérer*
 ```
 Table après insertions :
 Case 0 : NULL
-Case 1 : (1, Alice) -> (6, Bob) -> NULL
+Case 1 : (1, Ali) -> (6, kawtar) -> NULL
 Case 2 : NULL
-Case 3 : (3, Charlie) -> (8, David) -> NULL
+Case 3 : (3, Chihab) -> (8, Donia) -> NULL
 Case 4 : NULL
 
-Recherche clé 6 : Bob
-Recherche clé 2 : 
+Recherche clé 6 : kawtar
+Recherche clé 2 :
 
 Table après suppression clé 6 :
 Case 0 : NULL
-Case 1 : (1, Alice) -> NULL
+Case 1 : (1, Ali) -> NULL
 Case 2 : NULL
-Case 3 : (3, Charlie) -> (8, David) -> NULL
+Case 3 : (3, Chihab) -> (8, Donia) -> NULL
 Case 4 : NULL
-
 ```
 
 ##  Exemple d’exécution (image)
  
 Voici un exemple de l'exécution du programme (screenshot) :
 
+<img width="621" height="503" alt="image" src="https://github.com/user-attachments/assets/ba393d22-4a22-40b2-8b2e-beb66d815076" />
 
 
 #  Exercice 4 : Pile Générique avec Template
