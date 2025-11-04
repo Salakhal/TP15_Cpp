@@ -3,10 +3,10 @@
 int main() {
     TableHachage th(5);
 
-    th.inserer(1, "Alice");
-    th.inserer(6, "Bob");
-    th.inserer(3, "Charlie");
-    th.inserer(8, "David");
+    th.inserer(1, "Ali");
+    th.inserer(6, "kawtar");
+    th.inserer(3, "Chihab");
+    th.inserer(8, "Donia");
 
     cout << "Table de hachage après insertions :" << endl;
     th.afficher();
